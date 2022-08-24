@@ -22,7 +22,7 @@ const knex = require('../data/db-config')
 const server = express();
 
 const sessionConfig = {
-  name: 'sessionToken',
+  name: 'chocolatechip',
   secret: 'some secret',
   cookie: {
     maxAge: 1000 * 60 * 10,
